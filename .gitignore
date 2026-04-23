@@ -1,0 +1,31 @@
+__pycache__
+.ccls-cache
+
+build
+.venv/
+.local-src/
+.local-tools/
+elf2hex/
+repro_runs/
+server_runs/
+Fuzzer/results.xml
+Fuzzer/ISASim/riscv-isa-sim/build/
+*.pyc
+
+# SLURM + sweep artifacts
+slurm_logs/
+*.out
+!Makefile.out
+Fuzzer/infos/
+
+# Mutator working-file backups (reference only)
+Fuzzer/src/mutator_total_reward_backup.py
+Fuzzer/src/mutator_powrate_backup.py
+Fuzzer/src/mutator_evict_backup.py
+Fuzzer/src/mutator_unified.py
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
