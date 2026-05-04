@@ -171,9 +171,9 @@ Each line should match the corresponding job name.
 
 `deliverables/` contains the project artefacts:
 
-- `report.pdf` --- IEEE conference-format report
-- `presentation.pdf` --- 5-minute talk
-- `demo.pdf` --- tool demo slides
+- `Team-Assert3-689_project-Report.pdf` --- IEEE conference-format report
+- `Team-Assert3-689_project-Presentation.pdf` --- 5-minute talk
+- `Team-Assert3-689_project-Demo.pdf` --- tool demo slides
 - `cov_logs.tar.gz` --- the raw `cov_log_*.txt` files we used to compute
   the headline numbers (small, useful for independent re-analysis)
 
